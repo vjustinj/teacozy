@@ -4,7 +4,7 @@
 
 * {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
+
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -20,6 +20,8 @@
   border-bottom: 1px solid seashell;
   z-index: 20;
   width: 100%;
+  margin: 0px 0px;
+  padding: 0px 0px;
 }
 
 .logo {
@@ -44,12 +46,51 @@ nav span {
   text-transform: underline;
 }
 
+/*       Main Container        */
+.container-main {
+
+
+}
+
+/*       Mission        */
+
+.large-image-first {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 69px;
+}
+
+.banner {
+  text-align: center;
+  align-content: center;
+  height: 100px;
+  width: 1200px;
+}
+
+h2.mission-head {
+  margin-top: 5px
+  margin-bottom: 0px;
+  padding: 0px auto;
+}
+
+h4.mission-text {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+
 /*       Tea of the Month        */
 
 .tea-of-the-month {
   width: 1000px;
-  display: flex;
+
 }
+
+.TOM-head
 
 .cards {
   width: 300px;
@@ -57,4 +98,5 @@ nav span {
 
 .tea-images {
   height: 200px;
+  width: 300px;
 }
