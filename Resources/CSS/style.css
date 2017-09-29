@@ -25,6 +25,7 @@
 .logo {
   flex-grow: 1;
   justify-content: flex-start;
+
 }
 
 .logo img {
@@ -41,4 +42,19 @@ nav span {
   margin: auto 10px;
   padding: 0px 0px;
   text-transform: underline;
+}
+
+/*       Tea of the Month        */
+
+.tea-of-the-month {
+  width: 1000px;
+  display: flex;
+}
+
+.cards {
+  width: 300px;
+}
+
+.tea-images {
+  height: 200px;
 }
