@@ -90,13 +90,23 @@ h4.mission-text {
 
 }
 
-.TOM-head
-
-.cards {
-  width: 300px;
+.TOM-head {
+  display: block
+  height: 100px;
+  width: 1000px;
+  margin: 10px auto;
 }
 
-.tea-images {
+.tea-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cards {
+
+}
+
+.tea-images img {
   height: 200px;
   width: 300px;
 }
